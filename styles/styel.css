@@ -146,6 +146,22 @@ margin-top: 5px;
 
 
 
+.sponser{
+    text-align: center;
+}
+
+.sponsers-img{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+ 
+    
+}
+
+
 @media screen and (max-width: 576px) {
 
     header {
@@ -153,7 +169,10 @@ margin-top: 5px;
     }
 
     nav,
-    .teames-contanier {
+    .teames-contanier,
+    .fact-card,
+    .sponsers-img
+     {
         flex-direction: column;
     }
 
@@ -163,10 +182,21 @@ margin-top: 5px;
 
     }
 
-    .teams-content {
-        padding-left: 50px;
-        padding-right: 50px;
+    .teams-content,
+    .fact-card
+     {
+        padding-left: 20px;
+        padding-right: 20px;
     }
+
+    .fact-card
+    {
+        gap:20px;
+    }
+
+    
+    
+
 
 }
 
@@ -177,7 +207,8 @@ margin-top: 5px;
     }
 
     nav,
-    .teames-contanier {
+    .teames-contanier,
+    .sponsers-img {
         flex-direction: column;
     }
 
