@@ -17,6 +17,11 @@
 
 }
 
+.text-light-gray {
+    color: #727272;
+
+}
+
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -70,14 +75,11 @@ nav li a {
     color: #131313;
 }
 
-.banner-description {
-    color: #727272;
 
-}
 
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 
 }
 
@@ -98,7 +100,7 @@ main {
 }
 .teams-title .t-1
 {
-    color:#727272;
+   
     font-weight: 500;
 }
 
@@ -121,9 +123,23 @@ main {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .teames-contanier 
+     {
         flex-direction: column;
     }
+
+    .teams-img {
+        
+        grid-template-columns:  1fr;
+       
+    }
+
+    .teams-content
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 }
 
@@ -133,8 +149,18 @@ main {
         padding: 50px;
     }
 
-    nav {
+    nav,
+    .teames-contanier  {
         flex-direction: column;
     }
+
+    .teams-content
+{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+  
 
 }
