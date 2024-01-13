@@ -7,7 +7,14 @@
 
 .btn-primary
 {
-
+    border-radius: 8px;
+    color: #FFFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background: #FF900E;
+    padding: 20px 25px;
+    cursor: pointer;
+    border: 0;
 
 }
 
@@ -47,6 +54,11 @@ nav li a {
 }
 
 
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
 .banner-content
 {
     max-width: 800px;
@@ -66,6 +78,30 @@ nav li a {
     color:  #727272;
 
 }
+@media screen and (max-width: 576px) {
+
+    header{
+        padding: 20px;
+    }
+    nav
+    {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and ( min-width:576px ) and ( max-width:960px ) {
+
+    header{
+        padding: 50px;
+    }
+    nav
+    {
+        flex-direction: column;
+    }
+    
+}
+
 
 
 
